@@ -1,6 +1,8 @@
 node_modules
 .DS_Store
 dist
+*-export*
+*.log
 *.local
 .claude/settings.local.json
 .vite-inspect
