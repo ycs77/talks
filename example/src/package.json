@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build",
-    "export": "slidev export"
+    "build": "tsx ../../scripts/build.ts /2026/example/",
+    "export": "slidev export --per-slide --output ../2026-06-06-example.pdf"
   }
 }

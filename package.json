@@ -5,15 +5,21 @@
   "private": true,
   "scripts": {
     "dev": "",
-    "build": ""
-  },
-  "dependencies": {
-    "@slidev/cli": "^52.16.0",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
-    "vue": "^3.5.33"
+    "build": "rimraf dist && pnpm -r run build",
+    "typecheck": "vue-tsc --noEmit"
   },
   "devDependencies": {
-    "playwright-chromium": "^1.60.0"
+    "@slidev/cli": "catalog:",
+    "@slidev/client": "catalog:",
+    "@slidev/theme-default": "catalog:",
+    "@slidev/theme-seriph": "catalog:",
+    "@types/node": "catalog:",
+    "find-up": "catalog:",
+    "playwright-chromium": "catalog:",
+    "rimraf": "catalog:",
+    "tinyexec": "catalog:",
+    "tsx": "catalog:",
+    "typescript": "catalog:",
+    "vue-tsc": "catalog:"
   }
 }
