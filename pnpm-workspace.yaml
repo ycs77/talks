@@ -1,5 +1,6 @@
 catalogMode: prefer
 shamefullyHoist: true
+shellEmulator: true
 trustPolicy: no-downgrade
 trustPolicyExclude:
   - semver@6.3.1
@@ -14,6 +15,8 @@ catalog:
   '@slidev/theme-default': ^0.25.0
   '@slidev/theme-seriph': ^0.25.0
   '@types/node': ^24.13.1
+  '@ycs77/eslint-config': ^9.0.0
+  eslint: ^10.4.1
   find-up: ^8.0.0
   playwright-chromium: ^1.60.0
   rimraf: ^6.1.3

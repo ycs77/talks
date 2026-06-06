@@ -1,7 +1,6 @@
 import { existsSync } from 'node:fs'
 import fs from 'node:fs/promises'
 import { dirname, join } from 'node:path'
-import process from 'node:process'
 import { findUp } from 'find-up'
 import { x } from 'tinyexec'
 
@@ -26,13 +25,11 @@ if (existsSync(dirStale)) {
   console.log('Stale directory found, copying to dist')
   if (!existsSync(dirDist)) {
     await fs.mkdir(dirname(dirDist), { recursive: true })
-  }
-  else {
+  } else {
     await fs.rm(dirDist, { recursive: true })
   }
   await fs.cp(dirStale, dirDist, { recursive: true })
-}
-else {
+} else {
   console.log('No stale directory found, building')
 
   const command = ['slidev', 'build', '--base', base, '--out', `../../dist${base}`, ...args]

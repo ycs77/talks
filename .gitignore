@@ -4,6 +4,7 @@ dist
 *-export*
 *.log
 *.local
+.eslintcache
 .claude/settings.local.json
 .vite-inspect
 .remote-assets

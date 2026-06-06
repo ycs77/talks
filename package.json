@@ -1,12 +1,13 @@
 {
   "name": "talks",
   "type": "module",
-  "packageManager": "pnpm@10.33.4",
   "private": true,
+  "packageManager": "pnpm@10.33.4",
   "scripts": {
     "dev": "",
     "build": "rimraf dist && pnpm -r run build",
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "vue-tsc --noEmit",
+    "lint": "eslint . --cache --concurrency auto"
   },
   "devDependencies": {
     "@slidev/cli": "catalog:",
@@ -14,6 +15,8 @@
     "@slidev/theme-default": "catalog:",
     "@slidev/theme-seriph": "catalog:",
     "@types/node": "catalog:",
+    "@ycs77/eslint-config": "catalog:",
+    "eslint": "catalog:",
     "find-up": "catalog:",
     "playwright-chromium": "catalog:",
     "rimraf": "catalog:",
