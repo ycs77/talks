@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/2026/example/(.*)",
+      "destination": "/2026/example/index.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/2026/example/src",
+      "destination": "https://github.com/ycs77/talks/tree/main/2026-06-06",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "destination": "https://star-note-lucas.me/talks",
+      "permanent": false
+    }
+  ]
+}

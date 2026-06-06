@@ -7,7 +7,8 @@
     "dev": "",
     "build": "rimraf dist && pnpm -r run build",
     "typecheck": "vue-tsc --noEmit",
-    "lint": "eslint . --cache --concurrency auto"
+    "lint": "eslint . --cache --concurrency auto",
+    "update": "tsx scripts/redirects.ts"
   },
   "devDependencies": {
     "@slidev/cli": "catalog:",
