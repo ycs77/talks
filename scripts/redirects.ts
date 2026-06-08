@@ -34,7 +34,7 @@ const bases = (await Promise.all(
 }[]
 
 const vercelJson = {
-  '$schema': 'https://openapi.vercel.sh/vercel.json',
+  $schema: 'https://openapi.vercel.sh/vercel.json',
   rewrites: [] as Record<string, any>[],
   redirects: [] as Record<string, any>[],
 }
@@ -61,7 +61,7 @@ bases.forEach(({ base, pdfFile, dir }) => {
 
   vercelJson.rewrites.push({
     source: `${base}(.*)`,
-    destination: `${base}index.html`
+    destination: `${base}index.html`,
   })
 })
 
