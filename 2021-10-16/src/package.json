@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "tsx ../../scripts/build.ts /2021/laravel-vue-conf-taiwan/",
+    "export": "slidev export --per-slide --output ../2021-10-16-laravel-vue-conf-taiwan.pdf"
+  }
+}
