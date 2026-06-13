@@ -2,14 +2,24 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
-      "source": "/2026/example/(.*)",
-      "destination": "/2026/example/index.html"
+      "source": "/2021/laravel-vue-conf-taiwan/(.*)",
+      "destination": "/2021/laravel-vue-conf-taiwan/index.html"
     }
   ],
   "redirects": [
     {
-      "source": "/2026/example/src",
-      "destination": "https://github.com/ycs77/talks/tree/main/2026-06-06",
+      "source": "/2021/laravel-vue-conf-taiwan/pdf",
+      "destination": "https://github.com/ycs77/talks/blob/main/2021-10-16/2021-10-16-laravel-vue-conf-taiwan.pdf?raw=true",
+      "permanent": false
+    },
+    {
+      "source": "/2021-10-16/pdf",
+      "destination": "https://github.com/ycs77/talks/blob/main/2021-10-16/2021-10-16-laravel-vue-conf-taiwan.pdf?raw=true",
+      "permanent": false
+    },
+    {
+      "source": "/2021/laravel-vue-conf-taiwan/src",
+      "destination": "https://github.com/ycs77/talks/tree/main/2021-10-16",
       "permanent": false
     },
     {
