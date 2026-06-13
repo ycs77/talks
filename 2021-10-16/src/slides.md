@@ -345,8 +345,8 @@ clicks: 1
 
 # Blade vs Vue?
 
-<div class="grid grid-cols-[300px,1fr] gap-x-6 gap-y-2">
-<v-clicks at="0" :every="2">
+<div class="grid grid-cols-[300px_1fr] gap-x-6 gap-y-2">
+<v-clicks at="-0" every="2">
 
 - 同時用 <YellowText bold>Blade</YellowText> 和 <YellowText bold>Vue</YellowText> 來組織視圖
 
@@ -377,7 +377,7 @@ class: text-center
 ---
 
 <div class="min-w-2xl flex">
-  <div class="flex-auto grid grid-cols-[1fr,80px,1fr] gap-y-12 text-center">
+  <div class="flex-auto grid grid-cols-[1fr_80px_1fr] gap-y-12 text-center">
     <div>
       <fa-solid-code-branch class="w-16 h-16 mx-auto" />
       <h2 class="!text-2xl mt-3"><YellowText>路由</YellowText><span class="!text-base">(後端路由)</span></h2>
@@ -404,7 +404,6 @@ class: text-center
   </div>
 </div>
 
-
 ---
 layout: center
 clicks: 4
@@ -417,7 +416,7 @@ clicks: 4
     <img class="w-[150px] mt-2" src="/assets/inertia-logo-text.svg" />
   </div>
 </div>
-<v-clicks at="0">
+<v-clicks at="-0">
 
 - Inertia 是開發 <YellowText bold>經典後端應用</YellowText> <span class="text-sm text-indigo-300">(Laravel, Rails)</span> + <YellowText bold>前端視圖</YellowText> <span class="text-sm text-indigo-300">(Vue.js, React)</span> 的方法
 - 後端框架可以使用<YellowText>除了視圖</YellowText>的所有功能，如 Router、Controller、Middleware、身分驗證、授權、Eloquent ORM…...等。
@@ -637,12 +636,12 @@ clicks: 2
 
 # Hello Inertia
 
-<div class="grid grid-cols-[130px,1fr,1fr] gap-x-4 gap-y-2">
+<div class="grid grid-cols-[130px_1fr_1fr] gap-x-4 gap-y-2">
 <div></div>
 <div class="text-gray-400 tracking-wider text-sm uppercase">路由</div>
 <div class="text-gray-400 tracking-wider text-sm uppercase">Vue 組件</div>
 
-<v-clicks at="0" :every="3">
+<v-clicks at="-0" :every="3">
 
 - 渲染頁面
 
@@ -665,7 +664,7 @@ Route::inertia('/', 'Home');
 
 - Prop 傳資料
 
-```php {all|5} {at:1}
+```php {hide|all|5} {at:1}
 use Inertia\Inertia;
 
 Route::get('/about', function () {
@@ -675,7 +674,7 @@ Route::get('/about', function () {
 });
 ```
 
-```vue {all|4,10} {at:1}
+```vue {hide|all|4,10} {at:1}
 <!-- resources/js/pages/About.vue -->
 <template>
   <h1>關於</h1>
