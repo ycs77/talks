@@ -7,10 +7,12 @@
     "types": ["node"],
     "allowImportingTsExtensions": true,
     "noEmit": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
   },
   "exclude": [
     "**/*.md",
+    "**/node_modules/**",
     "**/dist-stale/**",
     "**/dist/**"
   ]
