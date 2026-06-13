@@ -1,0 +1,1 @@
+var e=`/2021/laravel-vue-conf-taiwan/assets/inertia-logo.svg`;export{e as t};
