@@ -1,0 +1,3 @@
+.slidev-page img {
+  @apply rounded-md;
+}
