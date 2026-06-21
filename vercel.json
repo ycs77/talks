@@ -4,6 +4,10 @@
     {
       "source": "/2021/laravel-vue-conf-taiwan/(.*)",
       "destination": "/2021/laravel-vue-conf-taiwan/index.html"
+    },
+    {
+      "source": "/2026/laravel-event-june/(.*)",
+      "destination": "/2026/laravel-event-june/index.html"
     }
   ],
   "redirects": [
@@ -20,6 +24,21 @@
     {
       "source": "/2021/laravel-vue-conf-taiwan/src",
       "destination": "https://github.com/ycs77/talks/tree/main/2021-10-16",
+      "permanent": false
+    },
+    {
+      "source": "/2026/laravel-event-june/pdf",
+      "destination": "https://github.com/ycs77/talks/blob/main/2026-06-23/2026-06-23-laravel-event-june.pdf?raw=true",
+      "permanent": false
+    },
+    {
+      "source": "/2026-06-23/pdf",
+      "destination": "https://github.com/ycs77/talks/blob/main/2026-06-23/2026-06-23-laravel-event-june.pdf?raw=true",
+      "permanent": false
+    },
+    {
+      "source": "/2026/laravel-event-june/src",
+      "destination": "https://github.com/ycs77/talks/tree/main/2026-06-23",
       "permanent": false
     },
     {
