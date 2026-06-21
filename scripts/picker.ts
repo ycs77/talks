@@ -1,22 +1,26 @@
 import fs from 'node:fs/promises'
+import { dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { select } from '@clack/prompts'
 import { execa } from 'execa'
+import fg from 'fast-glob'
 
 async function startPicker(args: string[]) {
-  const folders = await Promise.all((await fs.readdir(new URL('..', import.meta.url), { withFileTypes: true }))
-    .filter(dirent => dirent.isDirectory())
-    .map(dirent => dirent.name)
-    .filter(folder => folder.match(/^\d{4}-/))
-    .sort((a, b) => -a.localeCompare(b))
-    .map(async folder => {
+  const packageFiles = (await fg('*/src/package.json', {
+    onlyFiles: true,
+  })).sort().reverse()
+
+  const folders = await Promise.all(
+    packageFiles.map(async file => {
+      const folder = dirname(dirname(file))
       const md = await fs.readFile(new URL(`../${folder}/README.md`, import.meta.url), 'utf-8')
       const title = md.match(/^# (.*)/)?.[1].trim() || ''
       return {
         label: title ? `${folder} | ${title}` : folder,
         value: folder,
       } as const
-    }))
+    }),
+  )
 
   const folder: string | symbol | undefined = args.includes('-y')
     ? folders[0]?.value
