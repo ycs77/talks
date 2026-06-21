@@ -541,7 +541,7 @@ class: text-center
 <div class="grid grid-cols-2 gap-x-6 gap-y-2">
 <div>
 
-![](/ycsaudio-screenshot.jpg)
+![](/assets/ycsaudio-screenshot.jpg)
 
 </div>
 <div class="pt-2">
@@ -604,7 +604,7 @@ class: text-center
 <div class="grid grid-cols-2 gap-x-6 gap-y-2">
 <div>
 
-![](/jquery-plugin-bsmodal.jpg)
+![](/assets/jquery-plugin-bsmodal.jpg)
 
 </div>
 <div class="pt-2">
@@ -632,7 +632,7 @@ class: text-center
 <div class="grid grid-cols-2 gap-x-6 gap-y-2">
 <div>
 
-![](/laravel-pr-1.jpg)
+![](/assets/laravel-pr-1.jpg)
 
 </div>
 <div class="pt-2">
@@ -651,7 +651,7 @@ class: text-center
 
 # 給 Laravel 發 PR
 
-![](/laravel-pr-2.jpg)
+![](/assets/laravel-pr-2.jpg)
 
 <!--
 
@@ -668,7 +668,7 @@ class: text-center
 
 <div class="[&_img]:h-[420px]">
 
-![](/laravel-pr-3.jpg)
+![](/assets/laravel-pr-3.jpg)
 
 </div>
 
@@ -689,7 +689,7 @@ class: text-center
 <div class="grid grid-cols-2 gap-x-6 gap-y-2">
 <div>
 
-![](/laravel-newebpay.jpg)
+![](/assets/laravel-newebpay.jpg)
 
 </div>
 <div class="pt-2">
@@ -710,7 +710,7 @@ class: text-center
 <div class="grid grid-cols-2 gap-x-6 gap-y-2">
 <div>
 
-![](/laravel-wizard.jpg)
+![](/assets/laravel-wizard.jpg)
 
 </div>
 <div class="pt-2">
@@ -737,7 +737,7 @@ class: text-center
 <div class="grid grid-cols-2 gap-x-6 gap-y-2">
 <div>
 
-![](/headlessui-float.jpg)
+![](/assets/headlessui-float.jpg)
 
 </div>
 <div class="pt-2">
@@ -793,14 +793,14 @@ class: text-center
 
 ###### Before
 
-![](/termwind-1.jpg)
+![](/assets/termwind-1.jpg)
 
 </div>
 <div>
 
 ###### After
 
-![](/termwind-2.jpg)
+![](/assets/termwind-2.jpg)
 
 </div>
 </div>
@@ -814,14 +814,14 @@ class: text-center
 
 ###### Before
 
-![](/termwind-3.jpg)
+![](/assets/termwind-3.jpg)
 
 </div>
 <div>
 
 ###### After
 
-![](/termwind-4.jpg)
+![](/assets/termwind-4.jpg)
 
 </div>
 </div>
@@ -875,14 +875,14 @@ layout: center
 class: text-center
 ---
 
-![](/apifable-screenshot-1.jpg)
+![](/assets/apifable-screenshot-1.jpg)
 
 ---
 layout: center
 class: text-center
 ---
 
-![](/apifable-screenshot-2.jpg)
+![](/assets/apifable-screenshot-2.jpg)
 
 ---
 layout: center
