@@ -24,8 +24,8 @@ layout: intro
   <li>工作：蜂巢數據科技的全端工程師</li>
   <li>框架：Laravel / Vue.js / Tailwind CSS</li>
   <li>套件：npm 30+，Composer 10+</li>
-  <li>2020 年：PHP 也有 Day 56</li>
-  <li>2021 年：{Laravel x Vue}Conf Taiwan</li>
+  <li>2020 年：PHP 也有 Day 56 講者</li>
+  <li>2021 年：{Laravel x Vue}Conf Taiwan 講者</li>
 </ul>
 
 <div class="my-10 grid grid-cols-[28px_1fr] items-center justify-center w-min gap-y-4">
@@ -52,7 +52,9 @@ layout: intro
 # Agenda
 
 - 從介紹開源和套件開始
-- 分享我開發套件的動機和過程
+- Composer 套件的構成
+- NPM 套件的構成
+- 分享我開發的套件們
 
 <!--
 
