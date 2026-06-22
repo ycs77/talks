@@ -44,6 +44,7 @@ layout: intro
 <!--
 
 - 沉迷於開發套件
+- 雖然一大半以上，有些是純粹給自己用的，有些是實驗用的
 
 -->
 
@@ -845,7 +846,7 @@ class: text-center
 
 ---
 
-# apifable
+# 開發 MCP 套件
 
 - 今年年初在做一個案子時
 - 串接 API 需要一直開 Swegger UI 來看 API 的資訊
@@ -855,7 +856,7 @@ class: text-center
 
 ---
 
-# apifable
+# apifable <a class="i-ri-github-line inline-block" href="https://github.com/ycs77/apifable" target="_blank" /> <a class="i-ri-npmjs-fill inline-block" href="https://www.npmjs.com/package/apifable" target="_blank" />
 
 - AI Agent 讀 OpenAPI Spec 的 MCP
 - MCP 會去解析 `openapi.yaml`
@@ -866,9 +867,9 @@ class: text-center
 <!--
 
 - 差不多是在 2026 年初的時候開發的
-- 心理還在接受 AI Agent 來幫忙開發套件的過程
-- 畢竟初期還是會相對排斥 AI Agent
-- 但現在已經是「沒了你我怎麼活啊？」
+- 在半年之前(2025年)還是會相對排斥 AI Agent
+- 半年後已經相對比較接受 AI Agent 來幫忙開發套件的過程
+- 現在已經是「沒了你我怎麼活啊？」
 
 -->
 
